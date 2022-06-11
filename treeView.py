@@ -15,7 +15,7 @@ tree = ttk.Treeview(root, columns=columns, show='headings')
 tree.heading('first_name', text='First Name')
 tree.heading('last_name', text='Last Name')
 tree.heading('email', text='Email')
-
+ 
 # generate sample data
 contacts = []
 for n in range(1, 100):
