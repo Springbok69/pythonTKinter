@@ -11,14 +11,14 @@ root.geometry('360x360+800+300')
 def incrementer(num = 1):
     num = num + 1
 
-    
+
 ########### fix this shit #####################################
 ########### incrementer is not working ########################
 
 
  # label number showing count
- 
-label = tk.Label(root, text= ' count is: ${num}')
+
+label = tk.Label(root, text= ' count is: {num}')
 label.pack()
 
 
